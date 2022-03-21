@@ -42,4 +42,13 @@ This is due to the relational complexity and demands of text-generation tasks du
 
 Given the limited scope of the technology we do not anticipate any ethical concerns
 
-However, text generation capabilities need to monitored due to their high potential for abuse: impersonation, generation of fake news, generation of harmful content
+However, text generation capabilities need to be monitored due to their high potential for abuse: impersonation, generation of fake news, generation of harmful content
+
+## How to Run the Code
+
+Use the command line to run the main.py file in the scripts folder to train the model with specified parameters.
+
+```
+python main.py --epochs --INITIAL_EPOCH --STEPS_PER_EPOCH
+```
+
